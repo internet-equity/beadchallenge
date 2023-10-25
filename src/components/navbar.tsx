@@ -17,8 +17,7 @@ function NavBar() {
             <li className="navbar-dropdown">
               <a href="#"> <FontAwesomeIcon icon={faBars} size = "1x"/></a>
               <ul className="dropdown-menu">
-                <li><a href="#">Sign Up</a></li>
-                <li><a href="#">Sign In</a></li>
+                <li><a href="/api/auth/login">Sign Up / Login</a></li>
                 <li><a href="#">About</a></li>
               </ul>
             </li>
